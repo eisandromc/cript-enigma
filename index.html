@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia da máquina Enigma - Alan Turing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Criptografia da máquina Enigma - Alan Turing</h1>
+        <p>A Enigma era uma máquina de criptografia usada pela Alemanha Nazista para proteger comunicações militares. Ela parecia uma máquina de escrever, mas usava rotores elétrico-mecânicos para cifrar mensagens de forma extremamente complexa.</p>
+        <p>Alan Turing foi um brilhante matemático britânico cuja contribuição foi fundamental para decifrar os códigos da máquina Enigma, utilizada pela Alemanha nazista durante a Segunda Guerra Mundial. Trabalhando em Bletchley Park, ele liderou o desenvolvimento da "Bombe", uma máquina eletromecânica capaz de testar rapidamente milhares de configurações da Enigma até encontrar a correta. Seu trabalho não só quebrou o código alemão como também ajudou os Aliados a antecipar movimentos do inimigo, encurtando a guerra em cerca de dois anos e salvando milhões de vidas.</p>
+        <div class="form">
+            <label for="">Mensagem</label>
+            <textarea name="" id="txaMensagem" value=""></textarea>
+            <label for="">Rotores</label><br>
+            <select name="" id="rotor1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>        
+            </select>
+            <select name="" id="rotor2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>        
+            </select>
+            <select name="" id="rotor3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>        
+            </select>
+            <hr>
+            <button id="btnCriptografar" >Criptografar Mensagem</button>
+            <button id="btnDescriptografar">Descriptografar Mensagem</button>
+            <button id="btnLimpar">Limpar Mensagem</button>
+            <hr>
+        </div>
+        <h1>Resultado</h1>
+        <h3 id="resultado"></h3>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+    background-image: url('./fundo.webp');
+    background-color: #333;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.container{
+    width: 80%;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    margin: 30px 10%;
+}
+.container h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #333;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+.container p{
+   font-size: 1.3em;
+    line-height: 1.5em;
+    width: 80%;
+    margin: 20px 10%;
+    text-align: justify;
+}
+.container .form{
+    width: 60%;
+    margin: 20px 20%;
+}
+.container .form label{
+    width: 100%;
+    margin: 20px 0 0 0;
+    font-weight: 800;
+    clear: both;
+    float: left;
+}
+.container .form textarea{
+    width: 90%;
+    padding: 10px;
+    height: 150px;
+}
+.container .form select,
+.container .form select option{
+    width: 30%;
+    padding: 10px;
+    font-size: 1.4em;
+} 
+.container button{
+    width: auto;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    margin: 20px 10px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+#resultado{
+    width: 60%;
+    margin: 5px 20%;
+    font-size: 2em;
+    color: rgb(4, 87, 4);
+    padding: 20px;
+}
